@@ -42,7 +42,7 @@
   "serviceworker": {
     "src": "service-worker.js"
   },
-  "short_name": "Iconduit (Material)",
+  "short_name": "Iconduit",
   "start_url": ".",
   "theme_color": "#D5415C"
 }
