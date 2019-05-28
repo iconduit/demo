@@ -1,7 +1,10 @@
 {
   "background_color": "#D5415C",
+  "categories": [
+    "utilities"
+  ],
   "description": "The Iconduit brand in \"Material Design\" style.",
-  "display": "standalone",
+  "display": "fullscreen",
   "icons": [
     {
       "sizes": "1024x1024",

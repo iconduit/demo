@@ -17,6 +17,7 @@
     }
   },
   "categories": [
+    "utilities"
   ],
   "color": {
     "background": "#D5415C",
@@ -26,7 +27,7 @@
     "tile": "#D5415C"
   },
   "description": "The Iconduit brand in \"Material Design\" style.",
-  "displayMode": "standalone",
+  "displayMode": "fullscreen",
   "iarcRatingId": null,
   "language": "en-US",
   "name": "Iconduit (Material)",
@@ -1410,6 +1411,18 @@
       },
       {
         "attributes": {
+          "content": "https://iconduit.github.io/demo/material/",
+          "property": "og:url"
+        },
+        "children": [
+        ],
+        "html": "<meta property=\"og:url\" content=\"https://iconduit.github.io/demo/material/\">",
+        "isSelfClosing": true,
+        "sortWeight": 0,
+        "tag": "meta"
+      },
+      {
+        "attributes": {
           "content": "Iconduit (Material)",
           "property": "og:site_name"
         },
@@ -1585,6 +1598,6 @@
     ]
   },
   "textDirection": "auto",
-  "url": null,
+  "url": "https://iconduit.github.io/demo/material/",
   "viewport": "width=device-width, initial-scale=1"
 }
