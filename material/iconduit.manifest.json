@@ -30,6 +30,11 @@
   "displayMode": "fullscreen",
   "iarcRatingId": null,
   "language": "en-US",
+  "masks": {
+    "output": {
+    },
+    "primary": "iconMask"
+  },
   "name": "Iconduit (Material)",
   "orientation": null,
   "os": {
