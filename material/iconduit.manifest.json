@@ -42,26 +42,37 @@
   "output": {
     "document": {
       "browserconfigXml": {
+        "path": "browserconfig.xml",
         "type": "application/xml",
         "url": "browserconfig.xml"
       },
+      "iconduitConsumer": {
+        "path": "iconduit.consumer.js",
+        "type": "application/javascript",
+        "url": "iconduit.consumer.js"
+      },
       "iconduitManifest": {
+        "path": "iconduit.manifest.json",
         "type": "application/json",
         "url": "iconduit.manifest.json"
       },
       "indexHtml": {
+        "path": "index.html",
         "type": "text/html",
         "url": "index.html"
       },
       "safariMaskIcon": {
+        "path": "safari-mask-icon.svg",
         "type": "image/svg+xml",
         "url": "safari-mask-icon.svg"
       },
       "serviceWorker": {
+        "path": "service-worker.js",
         "type": "application/javascript",
         "url": "service-worker.js"
       },
       "webAppManifest": {
+        "path": "site.webmanifest",
         "type": "application/manifest+json",
         "url": "site.webmanifest"
       }
@@ -70,6 +81,7 @@
       "appleTouchIcon": {
         "retina": {
           "htmlSizes": "180x180",
+          "path": "apple-touch-icon-180x180.png",
           "size": {
             "height": 180,
             "pixelDensity": 72,
@@ -83,6 +95,7 @@
       "appleTouchStartup": {
         "ipad1536x2048d264.landscape": {
           "htmlSizes": "2048x1536",
+          "path": "apple-touch-startup-2048x1536r2.png",
           "size": {
             "deviceHeight": 1024,
             "deviceWidth": 768,
@@ -97,6 +110,7 @@
         },
         "ipad1536x2048d264.portrait": {
           "htmlSizes": "1536x2048",
+          "path": "apple-touch-startup-1536x2048r2.png",
           "size": {
             "deviceHeight": 1024,
             "deviceWidth": 768,
@@ -111,6 +125,7 @@
         },
         "ipad1668x2224d264.landscape": {
           "htmlSizes": "2224x1668",
+          "path": "apple-touch-startup-2224x1668r2.png",
           "size": {
             "deviceHeight": 1112,
             "deviceWidth": 834,
@@ -125,6 +140,7 @@
         },
         "ipad1668x2224d264.portrait": {
           "htmlSizes": "1668x2224",
+          "path": "apple-touch-startup-1668x2224r2.png",
           "size": {
             "deviceHeight": 1112,
             "deviceWidth": 834,
@@ -139,6 +155,7 @@
         },
         "ipad1668x2388d264.landscape": {
           "htmlSizes": "2388x1668",
+          "path": "apple-touch-startup-2388x1668r2.png",
           "size": {
             "deviceHeight": 1194,
             "deviceWidth": 834,
@@ -153,6 +170,7 @@
         },
         "ipad1668x2388d264.portrait": {
           "htmlSizes": "1668x2388",
+          "path": "apple-touch-startup-1668x2388r2.png",
           "size": {
             "deviceHeight": 1194,
             "deviceWidth": 834,
@@ -167,6 +185,7 @@
         },
         "ipad2048x2732d264.landscape": {
           "htmlSizes": "2732x2048",
+          "path": "apple-touch-startup-2732x2048r2.png",
           "size": {
             "deviceHeight": 1366,
             "deviceWidth": 1024,
@@ -181,6 +200,7 @@
         },
         "ipad2048x2732d264.portrait": {
           "htmlSizes": "2048x2732",
+          "path": "apple-touch-startup-2048x2732r2.png",
           "size": {
             "deviceHeight": 1366,
             "deviceWidth": 1024,
@@ -195,6 +215,7 @@
         },
         "iphone1125x2436.landscape": {
           "htmlSizes": "2436x1125",
+          "path": "apple-touch-startup-2436x1125r3.png",
           "size": {
             "deviceHeight": 812,
             "deviceWidth": 375,
@@ -209,6 +230,7 @@
         },
         "iphone1125x2436.portrait": {
           "htmlSizes": "1125x2436",
+          "path": "apple-touch-startup-1125x2436r3.png",
           "size": {
             "deviceHeight": 812,
             "deviceWidth": 375,
@@ -223,6 +245,7 @@
         },
         "iphone1242x2208.landscape": {
           "htmlSizes": "2208x1242",
+          "path": "apple-touch-startup-2208x1242r3.png",
           "size": {
             "deviceHeight": 736,
             "deviceWidth": 414,
@@ -237,6 +260,7 @@
         },
         "iphone1242x2208.portrait": {
           "htmlSizes": "1242x2208",
+          "path": "apple-touch-startup-1242x2208r3.png",
           "size": {
             "deviceHeight": 736,
             "deviceWidth": 414,
@@ -251,6 +275,7 @@
         },
         "iphone1242x2688.landscape": {
           "htmlSizes": "2688x1242",
+          "path": "apple-touch-startup-2688x1242r3.png",
           "size": {
             "deviceHeight": 896,
             "deviceWidth": 414,
@@ -265,6 +290,7 @@
         },
         "iphone1242x2688.portrait": {
           "htmlSizes": "1242x2688",
+          "path": "apple-touch-startup-1242x2688r3.png",
           "size": {
             "deviceHeight": 896,
             "deviceWidth": 414,
@@ -279,6 +305,7 @@
         },
         "iphone640x1136.landscape": {
           "htmlSizes": "1136x640",
+          "path": "apple-touch-startup-1136x640r2.png",
           "size": {
             "deviceHeight": 568,
             "deviceWidth": 320,
@@ -293,6 +320,7 @@
         },
         "iphone640x1136.portrait": {
           "htmlSizes": "640x1136",
+          "path": "apple-touch-startup-640x1136r2.png",
           "size": {
             "deviceHeight": 568,
             "deviceWidth": 320,
@@ -307,6 +335,7 @@
         },
         "iphone750x1334.landscape": {
           "htmlSizes": "1334x750",
+          "path": "apple-touch-startup-1334x750r2.png",
           "size": {
             "deviceHeight": 667,
             "deviceWidth": 375,
@@ -321,6 +350,7 @@
         },
         "iphone750x1334.portrait": {
           "htmlSizes": "750x1334",
+          "path": "apple-touch-startup-750x1334r2.png",
           "size": {
             "deviceHeight": 667,
             "deviceWidth": 375,
@@ -335,6 +365,7 @@
         },
         "iphone828x1792.landscape": {
           "htmlSizes": "1792x828",
+          "path": "apple-touch-startup-1792x828r2.png",
           "size": {
             "deviceHeight": 896,
             "deviceWidth": 414,
@@ -349,6 +380,7 @@
         },
         "iphone828x1792.portrait": {
           "htmlSizes": "828x1792",
+          "path": "apple-touch-startup-828x1792r2.png",
           "size": {
             "deviceHeight": 896,
             "deviceWidth": 414,
@@ -365,6 +397,7 @@
       "dmgBackground": {
         "primary": {
           "htmlSizes": "512x288",
+          "path": "dmg-background.png",
           "size": {
             "height": 288,
             "pixelDensity": 72,
@@ -376,6 +409,7 @@
         },
         "primary@2x": {
           "htmlSizes": "1024x576",
+          "path": "dmg-background@2x.png",
           "size": {
             "height": 576,
             "pixelDensity": 72,
@@ -389,6 +423,7 @@
       "facebookAppIcon": {
         "primary": {
           "htmlSizes": "1024x1024",
+          "path": "facebook-app-icon.png",
           "size": {
             "height": 1024,
             "pixelDensity": 72,
@@ -402,6 +437,7 @@
       "faviconIco": {
         "container": {
           "htmlSizes": "48x48 32x32 16x16",
+          "path": "favicon.ico",
           "size": {
             "height": 48,
             "pixelDensity": 72,
@@ -435,6 +471,7 @@
       "faviconPng": {
         "medium": {
           "htmlSizes": "32x32",
+          "path": "favicon-32x32.png",
           "size": {
             "height": 32,
             "pixelDensity": 72,
@@ -446,6 +483,7 @@
         },
         "small": {
           "htmlSizes": "16x16",
+          "path": "favicon-16x16.png",
           "size": {
             "height": 16,
             "pixelDensity": 72,
@@ -459,6 +497,7 @@
       "githubAccountIcon": {
         "primary": {
           "htmlSizes": "1024x1024",
+          "path": "github-account-icon.png",
           "size": {
             "height": 1024,
             "pixelDensity": 72,
@@ -472,6 +511,7 @@
       "macosIcns": {
         "container": {
           "htmlSizes": "16x16 32x32 64x64 128x128 256x256 512x512 1024x1024",
+          "path": "macos.icns",
           "size": {
             "height": 1024,
             "pixelDensity": 72,
@@ -553,6 +593,7 @@
       "openGraphImage": {
         "primary": {
           "htmlSizes": "1200x630",
+          "path": "open-graph.png",
           "size": {
             "height": 630,
             "pixelDensity": 72,
@@ -566,6 +607,7 @@
       "twitterCardImage": {
         "primary": {
           "htmlSizes": "1200x600",
+          "path": "twitter-card.png",
           "size": {
             "height": 600,
             "pixelDensity": 72,
@@ -579,6 +621,7 @@
       "webAppIconMaskable": {
         "large": {
           "htmlSizes": "1024x1024",
+          "path": "web-app-icon-maskable-1024x1024.png",
           "size": {
             "height": 1024,
             "pixelDensity": 72,
@@ -590,6 +633,7 @@
         },
         "medium": {
           "htmlSizes": "512x512",
+          "path": "web-app-icon-maskable-512x512.png",
           "size": {
             "height": 512,
             "pixelDensity": 72,
@@ -601,6 +645,7 @@
         },
         "small": {
           "htmlSizes": "192x192",
+          "path": "web-app-icon-maskable-192x192.png",
           "size": {
             "height": 192,
             "pixelDensity": 72,
@@ -614,6 +659,7 @@
       "webAppIconMasked": {
         "large": {
           "htmlSizes": "1024x1024",
+          "path": "web-app-icon-masked-1024x1024.png",
           "size": {
             "height": 1024,
             "pixelDensity": 72,
@@ -625,6 +671,7 @@
         },
         "medium": {
           "htmlSizes": "512x512",
+          "path": "web-app-icon-masked-512x512.png",
           "size": {
             "height": 512,
             "pixelDensity": 72,
@@ -636,6 +683,7 @@
         },
         "small": {
           "htmlSizes": "192x192",
+          "path": "web-app-icon-masked-192x192.png",
           "size": {
             "height": 192,
             "pixelDensity": 72,
@@ -649,6 +697,7 @@
       "windowsIco": {
         "container": {
           "htmlSizes": "16x16 22x22 24x24 32x32 40x40 48x48 64x64 96x96 128x128 256x256",
+          "path": "windows.ico",
           "size": {
             "height": 256,
             "pixelDensity": 72,
@@ -724,6 +773,7 @@
       "windowsTileLarge": {
         "large@2x": {
           "htmlSizes": "620x620",
+          "path": "windows-tile-620x620.png",
           "size": {
             "height": 620,
             "pixelDensity": 72,
@@ -737,6 +787,7 @@
       "windowsTileMedium": {
         "medium@2x": {
           "htmlSizes": "300x300",
+          "path": "windows-tile-300x300.png",
           "size": {
             "height": 300,
             "pixelDensity": 72,
@@ -750,6 +801,7 @@
       "windowsTileSmall": {
         "small@2x": {
           "htmlSizes": "140x140",
+          "path": "windows-tile-140x140.png",
           "size": {
             "height": 140,
             "pixelDensity": 72,
@@ -763,6 +815,7 @@
       "windowsTileWide": {
         "wide@2x": {
           "htmlSizes": "620x300",
+          "path": "windows-tile-620x300.png",
           "size": {
             "height": 300,
             "pixelDensity": 72,
@@ -775,14 +828,14 @@
       }
     }
   },
-  "outputPath": "../../dist/material",
+  "outputPath": ".",
   "shortName": "Iconduit",
   "tag": {
     "appleTouchStartup": [
       {
         "attributes": {
-          "href": "<%- output.url %>",
-          "media": "(device-width: <%- output.size.deviceWidth %>px) and (device-height: <%- output.size.deviceHeight %>px) and (-webkit-device-pixel-ratio: <%- output.size.pixelRatio %>) and (orientation: <%- output.size.orientation %>)",
+          "href": "<%- current.url() %>",
+          "media": "(device-width: <%- current.output.size.deviceWidth %>px) and (device-height: <%- current.output.size.deviceHeight %>px) and (-webkit-device-pixel-ratio: <%- current.output.size.pixelRatio %>) and (orientation: <%- current.output.size.orientation %>)",
           "rel": "apple-touch-startup-image"
         },
         "children": [
@@ -797,27 +850,27 @@
     "graph": [
       {
         "attributes": {
-          "content": "<%- (({id, launchUrl} = {}) => id && (launchUrl ? `app-id=${id}, app-argument=${consumer.absoluteUrl(launchUrl)}` : `app-id=${id}`))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
+          "content": "<%- (({id, launchUrl} = {}) => id && (launchUrl ? `app-id=${id}, app-argument=${absoluteUrl(launchUrl)}` : `app-id=${id}`))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
           "name": "apple-itunes-app"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- (({id, launchUrl} = {}) => id && (launchUrl ? `app-id=${id}, app-argument=${consumer.absoluteUrl(launchUrl)}` : `app-id=${id}`))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
+          "<%- (({id, launchUrl} = {}) => id && (launchUrl ? `app-id=${id}, app-argument=${absoluteUrl(launchUrl)}` : `app-id=${id}`))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>",
           "property": "al:android:url"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>"
         ],
         "tag": "meta"
       },
@@ -849,14 +902,14 @@
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
           "property": "al:ios:url"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
         ],
         "tag": "meta"
       },
@@ -888,27 +941,27 @@
       },
       {
         "attributes": {
-          "content": "<%- consumer.absoluteUrl(manifest.urls.start) %>",
+          "content": "<%- absoluteUrl(manifest.urls.start) %>",
           "property": "al:web:url"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteUrl(manifest.urls.start) %>"
+          "<%- absoluteUrl(manifest.urls.start) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"windows\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"windows\")) %>",
           "property": "al:windows:url"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"windows\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"windows\")) %>"
         ],
         "tag": "meta"
       },
@@ -978,14 +1031,14 @@
       },
       {
         "attributes": {
-          "content": "<%- consumer.absoluteUrl(manifest.urls.start) %>",
+          "content": "<%- absoluteUrl(manifest.urls.start) %>",
           "property": "og:url"
         },
         "children": [
         ],
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteUrl(manifest.urls.start) %>"
+          "<%- absoluteUrl(manifest.urls.start) %>"
         ],
         "tag": "meta"
       },
@@ -1149,7 +1202,7 @@
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
           "name": "twitter:app:url:iphone"
         },
         "children": [
@@ -1157,7 +1210,7 @@
         "isSelfClosing": true,
         "predicate": [
           "<%- manifest.applications.web.twitter.cardType === \"app\" ? \"true\" : \"\" %>",
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
         ],
         "tag": "meta"
       },
@@ -1191,7 +1244,7 @@
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>",
           "name": "twitter:app:url:ipad"
         },
         "children": [
@@ -1199,7 +1252,7 @@
         "isSelfClosing": true,
         "predicate": [
           "<%- manifest.applications.web.twitter.cardType === \"app\" ? \"true\" : \"\" %>",
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"itunes\")) %>"
         ],
         "tag": "meta"
       },
@@ -1233,7 +1286,7 @@
       },
       {
         "attributes": {
-          "content": "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>",
+          "content": "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>",
           "name": "twitter:app:url:googleplay"
         },
         "children": [
@@ -1241,7 +1294,7 @@
         "isSelfClosing": true,
         "predicate": [
           "<%- manifest.applications.web.twitter.cardType === \"app\" ? \"true\" : \"\" %>",
-          "<%- (({launchUrl} = {}) => launchUrl && consumer.absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>"
+          "<%- (({launchUrl} = {}) => launchUrl && absoluteUrl(launchUrl))(manifest.applications.native.find(({platform}) => platform === \"play\")) %>"
         ],
         "tag": "meta"
       }
@@ -1249,7 +1302,7 @@
     "graphImage": [
       {
         "attributes": {
-          "content": "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>",
+          "content": "<%- absoluteImageUrl(current.name, current.size) %>",
           "property": "og:image"
         },
         "children": [
@@ -1257,13 +1310,13 @@
         "imageName": "openGraphImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- output.type %>",
+          "content": "<%- current.output.type %>",
           "property": "og:image:type"
         },
         "children": [
@@ -1271,13 +1324,13 @@
         "imageName": "openGraphImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- output.size.width %>",
+          "content": "<%- current.output.size.width %>",
           "property": "og:image:width"
         },
         "children": [
@@ -1285,13 +1338,13 @@
         "imageName": "openGraphImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- output.size.height %>",
+          "content": "<%- current.output.size.height %>",
           "property": "og:image:height"
         },
         "children": [
@@ -1299,7 +1352,7 @@
         "imageName": "openGraphImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
@@ -1313,13 +1366,13 @@
         "imageName": "openGraphImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
       {
         "attributes": {
-          "content": "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>",
+          "content": "<%- absoluteImageUrl(current.name, current.size) %>",
           "name": "twitter:image"
         },
         "children": [
@@ -1327,7 +1380,7 @@
         "imageName": "twitterCardImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       },
@@ -1341,7 +1394,7 @@
         "imageName": "twitterCardImage",
         "isSelfClosing": true,
         "predicate": [
-          "<%- consumer.absoluteImageUrl(outputName, sizeKey) %>"
+          "<%- absoluteImageUrl(current.name, current.size) %>"
         ],
         "tag": "meta"
       }
@@ -1349,7 +1402,7 @@
     "icon": [
       {
         "attributes": {
-          "href": "<%- output.url %>",
+          "href": "<%- current.url() %>",
           "rel": "apple-touch-icon"
         },
         "children": [
@@ -1362,10 +1415,10 @@
       },
       {
         "attributes": {
-          "href": "<%- output.url %>",
+          "href": "<%- current.url() %>",
           "rel": "icon",
-          "sizes": "<%- output.htmlSizes %>",
-          "type": "<%- output.type %>"
+          "sizes": "<%- current.output.htmlSizes %>",
+          "type": "<%- current.output.type %>"
         },
         "children": [
         ],
@@ -1378,7 +1431,7 @@
       {
         "attributes": {
           "color": "<%- manifest.color.mask %>",
-          "href": "<%- output.url %>",
+          "href": "<%- current.url() %>",
           "rel": "mask-icon"
         },
         "children": [
@@ -1393,7 +1446,7 @@
     "link": [
       {
         "attributes": {
-          "href": "<%- output.url %>",
+          "href": "<%- current.url() %>",
           "rel": "manifest"
         },
         "children": [
@@ -1505,7 +1558,7 @@
       },
       {
         "attributes": {
-          "content": "<%- output.url %>",
+          "content": "<%- current.url() %>",
           "name": "msapplication-TileImage"
         },
         "children": [
@@ -1518,7 +1571,7 @@
       },
       {
         "attributes": {
-          "content": "<%- output.url %>",
+          "content": "<%- current.url() %>",
           "name": "msapplication-config"
         },
         "children": [
