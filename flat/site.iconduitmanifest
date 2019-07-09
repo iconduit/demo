@@ -21,7 +21,7 @@
     "theme": "#D5415C",
     "tile": "#D5415C"
   },
-  "description": "The Iconduit brand in \"Material Design\" style.",
+  "description": "The Iconduit brand in flat style.",
   "determiner": "",
   "displayMode": "fullscreen",
   "extra": {
@@ -32,7 +32,7 @@
     },
     "primary": "iconMask"
   },
-  "name": "Iconduit (Material)",
+  "name": "Iconduit (Flat)",
   "orientation": "any",
   "os": {
     "ios": {
@@ -52,9 +52,9 @@
         "url": "iconduit.consumer.js"
       },
       "iconduitManifest": {
-        "path": "iconduit.manifest.json",
-        "type": "application/json",
-        "url": "iconduit.manifest.json"
+        "path": "site.iconduitmanifest",
+        "type": "application/vnd.iconduit.manifest",
+        "url": "site.iconduitmanifest"
       },
       "indexHtml": {
         "path": "index.html",
@@ -70,6 +70,11 @@
         "path": "service-worker.js",
         "type": "application/javascript",
         "url": "service-worker.js"
+      },
+      "tagsHtml": {
+        "path": "tags.html",
+        "type": "text/html",
+        "url": "tags.html"
       },
       "webAppManifest": {
         "path": "site.webmanifest",
@@ -1586,7 +1591,7 @@
   },
   "textDirection": "auto",
   "urls": {
-    "base": "https://iconduit.github.io/demo/material/",
+    "base": "https://iconduit.github.io/demo/flat/",
     "output": ".",
     "scope": ".",
     "start": "."
