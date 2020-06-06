@@ -1,7 +1,7 @@
 {
   "outputPath": "../../dist/banque-dogmatique",
   "name": "Banque Dogmatique",
-  "shortName": "Banque D.",
+  "shortName": "BD",
   "description": "An example bank application running on a Dogmatiq engine.",
   "displayMode": "fullscreen",
   "urls": {
