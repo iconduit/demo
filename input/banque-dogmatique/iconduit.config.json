@@ -1,5 +1,5 @@
 {
-  "outputPath": "../../dist/banque-dogmatique",
+  "outputPath": "../../artifacts/iconduit/banque-dogmatique",
   "name": "Banque Dogmatique",
   "shortName": "BD",
   "description": "An example bank application running on a Dogmatiq engine.",
