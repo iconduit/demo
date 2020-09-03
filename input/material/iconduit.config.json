@@ -1,5 +1,5 @@
 {
-  "outputPath": "../../dist/material",
+  "outputPath": "../../artifacts/iconduit/material",
   "name": "Iconduit (Material)",
   "shortName": "Iconduit",
   "description": "The Iconduit brand in \"Material Design\" style.",
