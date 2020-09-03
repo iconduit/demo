@@ -27,4 +27,3 @@ artifacts/site: README.md $(APPLICATION_OUTPUT_DIRS)
 	@mkdir -p "$@"
 
 	cp -a $? "$@"
-	touch "$@/.nojekyll"
