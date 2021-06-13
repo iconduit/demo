@@ -20,7 +20,7 @@ ci:: artifacts/site
 artifacts/iconduit/%: node_modules $$(shell find input/$$(notdir $$*) -type f)
 	@rm -rf "$@"
 
-	node_modules/.bin/iconduit "input/$*"
+	node_modules/.bin/iconduit "input/$*/iconduit.config.json"
 
 artifacts/site: README.md $(APPLICATION_OUTPUT_DIRS)
 	@rm -rf "$@"
