@@ -1,0 +1,17 @@
+{
+  "outputPath": "../../artifacts/iconduit/snout",
+  "name": "Snout",
+  "shortName": "Snout",
+  "description": "Snout Router",
+  "displayMode": "fullscreen",
+  "urls": {
+    "base": "https://snout.dev/"
+  },
+  "categories": [
+    "utilities"
+  ],
+  "colors": {
+    "background": "hsl(350, 100%, 65%)",
+    "brand": "hsl(350, 100%, 85%)"
+  }
+}
