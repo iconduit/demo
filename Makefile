@@ -17,10 +17,10 @@ ci:: artifacts/site
 
 ################################################################################
 
-artifacts/iconduit/%: node_modules $$(shell find input/$$(notdir $$*) -type f)
+artifacts/iconduit/%: artifacts/link-dependencies.touch $$(shell find input/$$(notdir $$*) -type f)
 	@rm -rf "$@"
 
-	node_modules/.bin/iconduit "input/$*/iconduit.config.json"
+	$(JS_EXEC) iconduit "input/$*/iconduit.config.json"
 
 artifacts/site: README.md $(APPLICATION_OUTPUT_DIRS)
 	@rm -rf "$@"
