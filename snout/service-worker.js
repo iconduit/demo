@@ -1,6 +1,6 @@
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open("cache-1747100838439")
+    caches.open("cache-1755591240115")
       .then(cache => cache.add('.'))
   )
 })
